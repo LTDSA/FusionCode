@@ -1,0 +1,15 @@
+appname="FusionCode"
+appver="1.0"
+appcode="1"
+appsdk="15"
+path_pattern=""
+packagename="cn.ltdsa.fusioncode"
+theme="Theme_DeviceDefault_Light_NoActionBar"
+app_key=""
+app_channel=""
+developer="LTDSA"
+description=""
+debugmode=true
+user_permission={
+  "WRITE_EXTERNAL_STORAGE"
+}

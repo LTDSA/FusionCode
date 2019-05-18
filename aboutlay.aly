@@ -1,0 +1,53 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  orientation="vertical";
+  layout_width="fill";
+  {
+    ImageView;
+    layout_height="128sp";
+    layout_width="fill";
+    src="icon.png";
+    layout_marginTop="25sp";
+  };
+  {
+    TextView;
+    gravity="center";
+    textColor="0xff000000";
+    layout_marginTop="10sp";
+    layout_height="50sp";
+    text="FusionCode";
+    textSize="21sp";
+    layout_width="fill";
+  };
+  {
+    TextView;
+    text="版本";
+    id="version";
+    gravity="center";
+    layout_width="fill";
+  };
+  {
+    TextView;
+    text="开发者 LTDSA";
+    gravity="center";
+    layout_width="fill";
+  };
+  {
+    TextView;
+    layout_marginRight="5sp";
+    layout_marginTop="10sp";
+    layout_marginLeft="5sp";
+    text="由于 FusionApp 自带的代码编辑器 bug 不断（比如操作方向反转），所以只好自己写了一个代码编辑器，支持对 Lua 语言进行补全建议。";
+    gravity="center";
+    layout_width="fill";
+  };
+  {
+    Button;
+    layout_marginTop="10sp";
+    id="website";
+    text="开发者官网";
+    gravity="center";
+    layout_gravity="center";
+  };
+};

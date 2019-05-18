@@ -1,0 +1,12 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  orientation="vertical";
+  layout_width="fill";
+  {
+    LuaEditor;
+    layout_height="fill";
+    id="code";
+    layout_width="fill";
+  };
+};
