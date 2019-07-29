@@ -1,0 +1,42 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  id="back";
+  layout_width="fill";
+  orientation="vertical";
+  {
+    TextView;
+    gravity="center";
+    layout_width="fill";
+    text="起个名字吧：";
+    textSize="18sp";
+    layout_height="50sp";
+    textColor="0xff000000";
+    id="desc";
+  };
+  {
+    EditText;
+    layout_width="fill";
+    singleLine="true";
+    Hint="FusionCode";
+    id="name";
+    layout_height="50sp";
+  };
+  {
+    TextView;
+    gravity="center";
+    text=[==[一般地，您的文件将被保存在：
+【内置存储】/FusionCode/【您设定的名称】.lua]==];
+    id="tips";
+    layout_width="fill";
+    layout_marginTop="5sp";
+  };
+  {
+    Button;
+    layout_gravity="right";
+    layout_marginTop="10sp";
+    text="保存";
+    id="save";
+    layout_marginRight="5sp";
+  };
+};

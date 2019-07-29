@@ -1,0 +1,27 @@
+{
+  LinearLayout;
+  layout_height="fill";
+  layout_width="fill";
+  orientation="vertical";
+  id="back";
+  {
+    Switch;
+    layout_width="fill";
+    layout_margin="10sp";
+    layout_gravity="center";
+    layout_height="25sp";
+    text="夜间模式（Beta 版）";
+    textSize="15sp";
+    id="night";
+  };
+  {
+    TextView;
+    layout_width="fill";
+    layout_margin="10sp";
+    textSize="15sp";
+    layout_height="25sp";
+    text="恢复默认";
+    textColor="0xff000000";
+    id="reset";
+  };
+};

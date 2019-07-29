@@ -1,6 +1,6 @@
 appname="FusionCode"
-appver="1.0"
-appcode="1"
+appver="1.1"
+appcode="2"
 appsdk="15"
 path_pattern=""
 packagename="cn.ltdsa.fusioncode"
